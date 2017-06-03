@@ -60,22 +60,22 @@ rss:
 # Author
 author:
   name: "your name"
-  avatar: "http://jekyllrb.com/img/logo-2x.png"
-  motto: "your motto"
+  avatar: "http://upload.jianshu.io/collections/images/414848/1384134895663.png?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96"
+  motto: "擎创DC团队"
 
 # Socials
 ## If you want the social show,place sure the social no comment
 ## The socials icon base font-awesome,you can learn more on http://fontawesome.io/icons/
-socials:
-    - name: "weibo"
-      url: "http://www.weibo.com/usename/"
-      icon: "weibo"
-    - name: "github"
-      url: "https://github.com/usename"
-      icon: "github"
-    - name: "facebook"
-      url: "https://www.facebook.com/usename"
-      icon: "facebook"
+# socials:
+#     - name: "weibo"
+#       url: "http://www.weibo.com/usename/"
+#       icon: "weibo"
+#     - name: "github"
+#       url: "https://github.com/usename"
+#       icon: "github"
+#     - name: "facebook"
+#       url: "https://www.facebook.com/usename"
+#       icon: "facebook"
 
 
 
@@ -85,11 +85,11 @@ socials:
 #---------------------------------------------------------------
 
 comment:
-  enable: true
+  enable: false
 
 # duoshuo
 duoshuo:
-  enable: true
+  enable: false
   short_name: "your duoshuo short_name"
 
 # disqus
@@ -101,14 +101,14 @@ disqus:
 # Site share setting
 #---------------------------------------------------------------
 duoshuo_share:
-    enable: true
+    enable: false
 
 #---------------------------------------------------------------
 # Site analysis setting
 #---------------------------------------------------------------
 # Baidu analysis
 baidu_analysis:
-  enable: true
+  enable: false
   token: "your baidu analysis token"
 
 # Google analysis

@@ -3,4 +3,4 @@ layout: about
 permalink: /about/
 ---
 
-The author's info
+擎创DC团队博客
