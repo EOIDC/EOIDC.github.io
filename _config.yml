@@ -64,6 +64,7 @@ paginate_path: "/page:num/"
 highlighter: 'rouge'
 kramdown:
   input:  GFM
+  syntax_highlighter: rouge
   # enable_coderay: true
   # coderay:
   #   coderay_line_numbers:  nil

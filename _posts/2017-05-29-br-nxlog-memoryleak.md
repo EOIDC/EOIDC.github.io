@@ -15,7 +15,7 @@ nxlog号称“日志收集神器”。nxlog 2.8社区版存在一个bug，此bug
 
 采用支持自动字符集转化的扩展，对日志数据进行转化时：
 
-```
+```xml
 <Extension charconv>
     Module xm_charcov
     AutodetectCharsets gbk, utf-8, euc-jp, utf-16, utf-32, iso8859-2
