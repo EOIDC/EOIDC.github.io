@@ -24,7 +24,7 @@ thumb: http://upload-images.jianshu.io/upload_images/42733-9a6a5ecb3df62130.png?
 
 在`shell`中很多常见命令都可以应用这种模式匹配规则，比如：
 
-```
+```bash
 find / -name "*.so"
 ```
 

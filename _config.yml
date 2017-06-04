@@ -45,7 +45,7 @@ literal:
     tags: "tag"
 
   about:
-    title: "关于作者"
+    title: "关于我们"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'
