@@ -10,13 +10,13 @@ layout: default
                 </h3>
                 <ul class="info">
                     <li>
-                      {{ 'post.author' | translate }} <span class="author">{{ page.author }}</span>
+                      {{ site.literal.post.author }} <span class="author">{{ page.author }}</span>
                     </li>
                     <li>
-                      {{ 'post.update_date' | translate }} {{ page.date | date: "%Y年%m月%d日" }}
+                      {{ site.literal.post.update_date }} {{ page.date | date: "%Y年%m月%d日" }}
                     </li>
                     <li>
-                      {{ 'post.tags' | translate }}
+                      {{ site.literal.post.tags }}
                      {% for tag in page.tags %}
                          <a class="tag" href="{{site.baseurl}}/tag/#{{ tag }}">{{ tag }}</a>
                      {% endfor %}

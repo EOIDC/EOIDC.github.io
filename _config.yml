@@ -22,9 +22,30 @@ sass:
 # Site
 ## You can create a locale setting at _locales and name *.yml
 title: ""
-description: "This is a simple theme for jekyll"
+description: "擎创EOI数据采集团队博客"
 keywords: "Pithy"
 locale: "zh_CN"
+
+literal:
+  menu:
+    home: "首页"
+    about: "关于"
+
+  list:
+    read_more: "阅读全文"
+    comment: "评论"
+
+  sidebar:
+    categories: "分类列表"
+    tags: "标签云"
+
+  post:
+    author: "作者"
+    update_date: "最后编辑"
+    tags: "tag"
+
+  about:
+    title: "关于作者"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'
@@ -43,9 +64,9 @@ paginate_path: "/page:num/"
 highlighter: 'rouge'
 kramdown:
   input:  GFM
-  enable_coderay: true
-  coderay:
-    coderay_line_numbers:  nil
+  # enable_coderay: true
+  # coderay:
+  #   coderay_line_numbers:  nil
 
 # RSS
 rss:

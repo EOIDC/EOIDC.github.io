@@ -6,11 +6,16 @@
       </h3>
     </div>
     <div class="panel-body excerpt">
-        {% if post.excerpt.size > 32 %}
-          {{ post.excerpt }}
-        {% else %}
-          {{ post.content | strip_html | strip_newlines | truncate: 160 }}
-        {% endif %}
+        <div class="left">
+          {% if post.excerpt.size > 32 %}
+            {{ post.excerpt }}
+          {% else %}
+            {{ post.content | strip_html | strip_newlines | truncate: 160 }}
+          {% endif %}
+        </div>
+        <div class="right">
+          <img src="{{ post.thumb }}"/>
+        </div>
     </div>
     <div class="panel-footer operate">
         <div class="pull-right">
@@ -18,11 +23,11 @@
               <i class="fa fa-clock-o"></i> {{ post.date | date: "%Y-%m-%d"}}
             </span>
           <a class="read" href="{{ post.url | prepend: site.baseurl }}#post-content">
-            <i class="fa fa-gg"></i> {{ 'list.read_more' | translate }}
+            <i class="fa fa-gg"></i> {{ site.literal.list.read_more }}
           </a>
-          <a class="comment" href="{{ post.url | prepend: site.baseurl }}#post-comment">
-            <i class="fa fa-comment-o"></i> {{ 'list.comment' | translate }}
-          </a>
+<!--           <a class="comment" href="{{ post.url | prepend: site.baseurl }}#post-comment">
+            <i class="fa fa-comment-o"></i> {{ site.literal.list.comment}}
+          </a> -->
         </div>
         <div class="clearfix"></div>
     </div>

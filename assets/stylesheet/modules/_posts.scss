@@ -20,6 +20,18 @@
 
   .excerpt{
     color: $gray-dark;
+    vertical-align: top;
+    .left {
+      display: table-cell;
+      width: 75%;
+    }
+    .right {
+      display: table-cell;
+      width: 20%;
+      img {
+        width: 100%;
+      }
+    }
   }
 
   .operate{

@@ -4,6 +4,7 @@ title: 【bug报告】nxlog字符集转化导致内存泄漏
 tags:  [日志收集]
 categories: [bug报告]
 author: P_Chou
+thumb: http://upload-images.jianshu.io/upload_images/42733-e66027232e2ea2f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ---
 
 nxlog号称“日志收集神器”。nxlog 2.8社区版存在一个bug，此bug会导致明显的内存泄漏。

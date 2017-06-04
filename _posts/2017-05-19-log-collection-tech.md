@@ -4,6 +4,7 @@ title: 日志收集十大技术细节
 tags:  [日志收集]
 categories: [日志收集]
 author: P_Chou
+thumb: http://upload-images.jianshu.io/upload_images/42733-9a6a5ecb3df62130.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ---
 
 本文探讨在大规模日志数据收集过程中，针对日志文件的处理需要注意的技术细节。
