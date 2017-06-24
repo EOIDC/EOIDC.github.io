@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 【bug报告】nxlog字符集转化导致内存泄漏
-tags:  [日志收集]
-categories: [bug报告]
+title: 使用cgroups控制进程cpu配额
+tags:  [Linux]
+categories: [系统开发]
 author: P_Chou
 thumb: http://upload-images.jianshu.io/upload_images/42733-472f7f46bb010319.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ---
